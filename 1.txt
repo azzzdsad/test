@@ -1,0 +1,19 @@
+내용 변경
+
+git config --global user.name "zz122324"
+git config --global user.email "사용자 메일"
+
+git config --list
+#현재 Git 설정에 대한 정보를 출력
+#깃허브 계정과의 연결 상태 확인 가능
+
+git branch -M main
+#현재 브랜치의 이름을 main으로 변경
+
+#github의 저장소와 로컬 프로젝트 연결
+
+git remote add origin https://github.com/zzz122324/test.git
+#깃허브에 올린 test 글 삭제
+
+git push origin main
+#깃허브로 전송
